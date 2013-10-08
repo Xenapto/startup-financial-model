@@ -1,3 +1,15 @@
+Note on this GitHub repository
+==============================
+
+The spreadsheet you can find here is the awesome Template Startup Financial Model developed by David Teten and associates. You can read more about the model from their cover notes which I reproduce below.
+
+License
+-------
+This template financial model was downloaded from David Teten's website under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States license which covers his entire site. I've included a screenshot of the site on October 8th 2013 in case the license is changed at any point.
+
+I've given this repository an MIT License which similarly requires you to maintain the attribution of the original work to David Teten. It would be polite also to mention the work of Rodi Blokh.
+
+
 Template Startup Financial Model
 ================================
 
