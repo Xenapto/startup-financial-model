@@ -15,7 +15,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>David Teten's startup financial model</h1>
+        <h1>David Teten's template startup financial model</h1>
         <p>A spreadsheet template for building a financial model for your startup</p>
 
         <p class="view"><a href="https://github.com/Xenapto/startup-financial-model">View the Project on GitHub <small>Xenapto/startup-financial-model</small></a></p>
@@ -28,37 +28,27 @@
         </ul>
       </header>
       <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+        <h3 id="note-on-this-github-repository">Note on this GitHub repository</h3>
+        <p>The spreadsheet you can find here is the awesome Template Startup Financial Model developed by David Teten and associates. You can read more about the model from their cover notes which I reproduce below.</p>
+        <h4 id="contributing">Contributing</h4>
+        <p>I hope by putting this repository here that people who find this useful will contribute their own enhancements to this model. If you fork this repository and create a generally-useful modification please submit a pull request and I'll add it back into the master branch.</p>
+        <h4 id="license">License</h4>
+        <p>This template financial model was downloaded from <a href="http://teten.com/blog/2011/11/10/template-startup-financial-model/" title="Template Startup Financial Model">David Teten's website</a> under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States license which covers his entire site. I've included a screenshot of the site on October 8th 2013 in case the license is changed at any point.</p>
+        <p>I've given this repository an MIT License which similarly requires you to maintain the attribution of the original work to David Teten. It would be polite also to mention the work of Rodi Blokh.</p>
+        <p>The notes below are taken from the information page of the template itself:</p>
+        <h3 id="template-startup-financial-model">Template Startup Financial Model</h3>
+        <h4 id="about">About</h4>
+        <p>We developed this model as a simple end-to-end financial model for an early-stage startup, although it is useful to anyone building a model for a company.  The model outputs standard financial statements and key operating metrics based on a wide range of user inputs, and is highly customizable and entirely transparent.</p>
+        <h4 id="credits">Credits</h4>
+        <p>This model was developed by Rodi Blokh in association with ff Venture Capital (<a href="http://www.ffvc.com">www.ffvc.com</a>) based on a sanitized version of a financial model developed by David Teten (<a href="http://www.teten.com">www.teten.com</a>) for the startups he has run.  Rodi is a Berkeley MBA student (Haas MBA '13) and former corporate banker at Bank of America Merrill Lynch (<a href="mailto:rblokh@gmail.com">rblokh@gmail.com</a>).  David is a Partner at ff Venture Capital, Chair of Harvard Business School Angels of Greater New York, and former Bear Stearns investment banker (<a href="mailto:info@teten.com">info@teten.com</a>).  Thank you to Adam Kalamchi (Columbia MBA '13) for some initial input on this model.</p>
+        <p>If you have feedback on the model, contact <a href="info@teten.com">info@teten.com</a>.  We are very interested in suggested additional improvements and will try to reflect them.  However, we cannot  provide you with user support.</p>
+        <h4 id="instructions">Instructions</h4>
+        <p>Click on the "Model", "Valuation" and "Funding Rounds" tabs and input relevant data.  All input cells are highlighted yellow with blue-colored text.</p>
+        <p>To add personnel, add additional rows in the Personnel Assumptions section.  Select the columns where an employee starts to correspond with personnel hiring timing.</p>
+        <p>The WACC section on the "Valuation" tab and the entire "Funding Rounds" tab is independent of the "Model" and requires independent inputs.
+        Non-input cells should not be altered by inexperienced users.  Cell A4 on the "Model" tab acts as a check of the model and will display an error message if the model logic is broken.  This error message tests for most, but definitely not all possible errors.</p>
+        <h4 id="model-logic">Model Logic</h4>
+        <p>Revenues in the model are arbitrarily assumed to be based primarily on employee headcount.  However, this is certainly not an accurate approach for all ventures, and in fact as venture capitalists we prefer companies in which the correlation between headcount and revenues is very low.  A separate row labeled "Other Revenues" may be more relevant for modeling revenue projections for your particular company.</p>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/Xenapto">Xenapto</a></p>
@@ -66,6 +56,6 @@ $ git checkout gh-pages
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    
+
   </body>
 </html>
