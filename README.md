@@ -18,7 +18,7 @@ Adding a locale
 1.  To add a locale, e.g. `fr-FR`, copy an existing locale worksheet to a new worksheet named `fr-FR`
 1.  Amend the yellow cells to suit your new locale
 1.  In the taxation fields, the tax on corporate profits is your locale's tax on the startup's gross income.
-1.  The taxation rate for employers' contributions to payroll taxes is the amount the employer pays in addition to deducting income tax and other taxes from the employe''s gross salary. In other words, you can enter the actual gross salary in the model worksheet and any additional payroll costs are added according to this rate. An example of this is Employers' Class 1 National Insurance contributions in the UK. An employee earning £100,000 would cost the employer £113,800 once the employers' National Insurance contributions are added.
+1.  The taxation rate for employers' contributions to payroll taxes is the amount the employer pays in addition to deducting income tax and other taxes from the employee's gross salary. In other words, you can enter the actual gross salary in the model worksheet and any additional payroll costs are added according to this rate. An example of this is Employers' Class 1 National Insurance contributions in the UK. An employee earning £100,000 would cost the employer £113,800 once the employers' National Insurance contributions are added.
 
 License
 -------
